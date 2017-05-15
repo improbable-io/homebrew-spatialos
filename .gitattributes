@@ -1,0 +1,246 @@
+# Canonical documentation: https://git-scm.com/docs/gitattributes
+# Comprehensive explanation: http://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/
+# git-scm book: https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes
+
+# Originally combined from
+# * https://gist.github.com/djhaskin987/e7936eb198a162d49ee65620458d1768
+# * http://blog.shadowmoses.co.uk/2013/12/getting-unity-3d-working-with-git-on.html
+
+# Use this line at your own risk
+# * text=auto
+
+# Editor save files
+# (these should be in your gitignore)
+*~ text
+.*.sw[a-z] text
+\#* text
+.#* text
+
+*.7z binary
+*.a -text
+*.ac text
+*.ai binary
+*.am text
+*.anim binary
+*.apk binary
+*.ar -text
+*.asp text
+*.aspx text
+*.asset text eol=lf
+*.awk eol=lf
+*.bat text eol=crlf
+*.bat text
+*.bin binary
+*.bmp binary
+*.BMP binary
+*.boo text
+*.bz -text
+*.bz2 -text
+*.bzip -text
+*.bzip2 -text
+*.c text
+*.c text
+*.cab -text
+*.cat -text
+*.cfg text
+*.cginc text
+*.class -text
+*.clj text
+*.cljs text
+*.cmd text eol=crlf
+*.cnf text
+*.com binary
+*.COM binary
+*.conf text
+*.config text
+*.contentproj text
+*.controller binary
+*.cpp text
+*.cpp text
+*.cs text eol=crlf
+*.csproj text eol=crlf
+*.css text
+*.csv text
+*.cubemap binary
+*.cxx text
+*.dae text
+*.DAE text
+*.dat text
+*.deb -text
+*.dex binary
+*.diff text
+*.dll binary
+*.DLL binary
+*.doc -text
+*.docx -text
+*.dtd text
+*.dylib binary
+*.edn text
+*.egg -text
+*.eps binary
+*.erb text
+*.exe binary
+*.EXE binary
+*.exr binary
+*.fbx binary
+*.FBX binary
+*.fla binary
+*.flare binary
+*.flv binary
+*.fx text
+*.gem -text
+*.gemspec text
+*.gif binary
+*.gifv binary
+*.glsl text
+*.go text eol=lf
+*.guiskin binary
+*.gz binary
+*.gzip binary
+*.h text
+*.ht binary
+*.htm text
+*.html text
+*.ico binary
+*.in text
+*.inc text
+*.ini text
+*.jar -text
+*.java text
+*.jinja text
+*.jinja2 text
+*.jpeg binary
+*.JPEG binary
+*.jpg binary
+*.js text
+*.JSFL text
+*.jsfl text
+*.json text
+*.keystore binary
+*.lib -text
+*.loc text
+*.log text
+*.lzma -text
+*.lzma2 -text
+*.m4 text
+*.markdown text
+*.mask binary
+*.mat binary
+*.mb binary
+*.md text
+*.md text
+*.mel text
+*.meta text eol=lf
+*.mp3 binary
+*.mp4 binary
+*.mpg binary
+*.msi -text
+*.msu -text
+*.nsi text
+*.nuget -text
+*.o -text
+*.ogg binary
+*.orig text
+*.patch text
+*.PCX binary
+*.pcx binary
+*.pdb binary
+*.pdf binary
+*.php text
+*.php text
+*.physicMaterial binary
+*.physicmaterial binary
+*.pl text
+*.png binary
+*.pp text
+*.prefab text eol=lf
+*.proj text
+*.proto text
+*.ps binary
+*.ps1 text
+*.psd binary
+*.py text
+*.pyc -text
+*.pyd -text
+*.qt binary
+*.rb text
+*.rpm -text
+*.rst text
+*.schema text
+*.sed eol=lf
+*.sh text eol=lf
+*.sh eol=lf
+*.shader text
+*.sln text eol=crlf
+*.sls text
+*.so binary
+*.sty text
+*.svg -text
+*.swf binary
+*.sys -text
+*.t text
+*.tar -text
+*.tcl eol=lf
+*.tex text
+*.tga binary
+*.tif binary
+*.tiff binary
+*.tsv text
+*.ttf binary
+*.TTF binary
+*.txt text
+*.TXT text
+*.txt text
+*.unity text eol=lf
+*.unitypackage binary
+*.unityPackage binary
+*.user text eol=crlf
+*.vcproj text eol=crlf
+*.vspscc text eol=lf
+*.wav binary
+*.whl -text
+*.wixlib -text
+*.wixobj -text
+*.wixproj text
+*.wmv binary
+*.wxi text
+*.wxs text
+*.xaml text
+*.xls -text
+*.xlsx -text
+*.xml text
+*.xml text
+*.xsd text
+*.xz -text
+*.yaml text
+*.yml text
+*.z -text
+*.zip binary
+*.ZIP binary
+.gitattributes text
+.gitignore text
+.htaccess text eol=lf
+CHANGELIST text
+CODE_OF_CONDUCT text
+CONTRIBUTORS text
+COPYING text
+COPYING text
+COPYRIGHT text
+Dockerfile text
+Gemfile text
+Gemfile.lock text
+INSTALL* text
+KEYS* text
+LICENSE text
+LICENSE* text
+Makefile text
+NEWS* text
+NOTES text
+NOTICE text
+NOTICE* text
+README text
+README* text
+TODO text
+TODO* text
+Vagrantfile text
+WHATSNEW* text
