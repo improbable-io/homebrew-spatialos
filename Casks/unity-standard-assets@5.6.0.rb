@@ -8,6 +8,8 @@ cask 'unity-standard-assets@5.6.0' do
 
   depends_on cask: 'unity@5.6.0'
 
+  conflicts_with cask: 'unity-standard-assets', because: 'Both install to the same place. The package from caskroom is always "latest version", whereas the one from improbable-io/spatialos tap is a particular version. There are no other differences.'
+
   pkg "StandardAssets-#{version.before_comma}.pkg"
 
   uninstall quit:    'com.unity3d.UnityEditor5.x',

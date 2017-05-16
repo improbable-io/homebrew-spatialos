@@ -6,6 +6,8 @@ cask 'unity-ios-support-for-editor@5.6.0' do
   name 'Unity iOS Build Support'
   homepage 'https://unity3d.com/unity/'
 
+  conflicts_with cask: 'unity-ios-support-for-editor', because: 'Both install to the same place. The package from caskroom is always "latest version", whereas the one from improbable-io/spatialos tap is a particular version. There are no other differences.'
+
   depends_on cask: 'unity@5.6.0'
 
   pkg "UnitySetup-iOS-Support-for-Editor-#{version.before_comma}.pkg"

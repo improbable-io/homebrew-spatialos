@@ -6,6 +6,8 @@ cask 'unity-linux-support-for-editor@5.5.2' do
   name 'Unity Linux Build Support'
   homepage 'https://unity3d.com/unity/'
 
+  conflicts_with cask: 'unity-linux-support-for-editor', because: 'Both install to the same place. The package from caskroom is always "latest version", whereas the one from improbable-io/spatialos tap is a particular version. There are no other differences.'
+
   depends_on cask: 'unity@5.5.2'
 
   pkg "UnitySetup-Linux-Support-for-Editor-#{version.before_comma}.pkg"
