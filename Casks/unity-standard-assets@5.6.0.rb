@@ -6,9 +6,9 @@ cask 'unity-standard-assets@5.6.0' do
   name 'Unity Standard Assets'
   homepage 'https://unity3d.com/unity'
 
-  depends_on cask: 'unity@5.6.0'
+  conflicts_with cask: 'unity-standard-assets'
 
-  conflicts_with cask: 'unity-standard-assets', because: 'Both install to the same place. The package from caskroom is always "latest version", whereas the one from improbable-io/spatialos tap is a particular version. There are no other differences.'
+  depends_on cask: 'unity@5.6.0'
 
   pkg "StandardAssets-#{version.before_comma}.pkg"
 

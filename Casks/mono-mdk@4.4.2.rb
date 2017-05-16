@@ -7,7 +7,7 @@ cask 'mono-mdk@4.4.2' do
   homepage 'http://mono-project.com/'
   license :oss
 
-  conflicts_with cask: 'mono-mdk', because: 'Both install to the same place. The package from caskroom is always "latest version", whereas the one from improbable-io/spatialos tap is a particular version. There are no other differences.'
+  conflicts_with cask: 'mono-mdk'
 
   pkg "MonoFramework-MDK-#{version}.macos10.xamarin.universal.pkg"
 

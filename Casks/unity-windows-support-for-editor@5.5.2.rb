@@ -6,7 +6,7 @@ cask 'unity-windows-support-for-editor@5.5.2' do
   name 'Unity Windows Build Support'
   homepage 'https://unity3d.com/unity/'
 
-  conflicts_with cask: 'unity-windows-support-for-editor', because: 'Both install to the same place. The package from caskroom is always "latest version", whereas the one from improbable-io/spatialos tap is a particular version. There are no other differences.'
+  conflicts_with cask: 'unity-windows-support-for-editor'
 
   depends_on cask: 'unity@5.5.2'
 
