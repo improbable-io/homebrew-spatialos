@@ -6,7 +6,7 @@ cask 'unity@5.6.0' do
   name 'Unity Editor'
   homepage 'https://unity3d.com/unity/'
 
-  conflicts_with cask: 'unity', because: 'Both install to the same place. The package from caskroom is always "latest version", whereas the one from improbable-io/spatialos tap is a particular version. There are no other differences.'
+  conflicts_with cask: 'unity'
 
   pkg 'Unity.pkg'
 
