@@ -5,3 +5,5 @@ containing formulae for installing dependencies that SpatialOS' toolbelt,
 spatial, has.
 
 [macOS setup guide](https://spatialos.improbable.io/docs/reference/latest/setup-spatialos/mac).
+
+[How to contribute](./CONTRIBUTING.md)
