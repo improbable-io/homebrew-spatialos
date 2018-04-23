@@ -8,4 +8,4 @@ spatial, has.
 
 [How to contribute](./CONTRIBUTING.md)
 
-You can test casks locally before pushing to this repo by running: `brew install <path/to/cask.rb>`.
+You can test casks locally before pushing to this repo by running: `brew cask install <path/to/cask.rb>`.
